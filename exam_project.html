@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      body{
+        background-color: rgb(160, 153, 153);
+      }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container mt-md-3">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Universe</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABout us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <!-- Slides -->
+    <div id="carouselExampleCaptions" class="carousel slide" style="z-index: -1000;margin-top: -100px;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./image/cover.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+        <button class="btn btn-light" >Learn About Us</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./image/world.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dW5pdmVyc2V8ZW58MHx8MHx8fDA%3D" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!-- Team Members -->
+        <div class="container my-5">
+            <div class="row">
+        <div class="col-md-4 text-center mb-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyB7jNy_zV326H_jFvJh2fE18QdzTDZCENgg&s" class="rounded-start" alt="Earth">
+            <h3>Aung Aung</h3>
+            <p>"Your journey with us starts here."</p>
+            <button class="btn btn-dark">Learn</button>
+        </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+        <div class="col-md-4 text-center mb-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaRIii42y3PGZX4SpUcYbLkgybmxtb0DgE3Q&s" class="rounded-start" alt="Earth">
+            <h3>Nandar Hlaing</h3>
+            <p>Hello, my name is Nandar Hlaing. I am an astronaut. I love space, science, and exploring new things. My dream is to learn more about the universe and inspire others to reach for the stars</p>
+            <button class="btn btn-dark">Learn</button>
+        </div>
+        </div><div class="container my-5">
+            <div class="row">
+        <div class="col-md-4 text-center mb-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2O95HCIuoctMXPA9BWgRtruOzN9nxLEMoYA&s" class="rounded-start" alt="Earth">
+            <h3>Soe Min</h3>
+            <p>Hi, Im Htet Naing. Im an astronaut who loves adventure and discovery. Space inspires me to dream big and work hard for the future.</p>
+            <button class="btn btn-dark">Learn</button>
+        </div>
+        </div>
+    </div>
+    <!-- Blog Posts -->
+        <div class="container">
+            <h4 class="fw-bold mb-2">Blog Posts</h4>
+  <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="./image/world.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Moon</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BhA_P3FC8dub-ulBmwKyPXoVwUo6yi5z4g&s"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Jupiter</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Footer -->
+    <div class="bg-light py-5 text-center mt-5">
+        © Myanmar Space Youths 2025. All rights reserved.
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
